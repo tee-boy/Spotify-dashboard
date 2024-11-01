@@ -1,3 +1,18 @@
 body {
     background: grey;
 }
+
+nav {
+    position: fixed;
+    top: 0;
+    color: rgb(20, 20, 20);
+}
+
+span {
+    display: inline;
+    padding: 10%;
+    color: rgb(72, 72, 72);
+}
+span > .pause {
+    padding: 20%;
+}
