@@ -5,13 +5,19 @@
     text-decoration: none;
     list-style: none;
 }
+.fixed-bottom {
+    padding: 3% 10%;
+}
+.dir-div {
+    width: 20px;
+}
 .container-fluid > span{
     display: inline;
 }
 .direction-button {
-    font-size: 12vh;
+    font-size: 5vh;
     color: rgb(72, 72, 72);
 }
 .pausebutton {
-    font-size: 10;
+    font-size: 7vh;
 }
