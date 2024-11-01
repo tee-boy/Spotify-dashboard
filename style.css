@@ -5,11 +5,13 @@
     text-decoration: none;
     list-style: none;
 }
-.container-fluid > span > ion-icon  {
+.container-fluid > span{
     display: inline;
+}
+.direction-button {
     font-size: 12vh;
     color: rgb(72, 72, 72);
 }
-.container-fluid > span > .pausebutton {
-    font-size: 15vh;
+.pausebutton {
+    font-size: 10;
 }
