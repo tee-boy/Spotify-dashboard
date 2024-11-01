@@ -1,8 +1,8 @@
 .container-fluid > span > ion-icon  {
     display: inline;
-    font-size: large;
+    font-size: small;
     color: rgb(72, 72, 72);
 }
 .container-fluid > span > .pausebutton {
-    font-size: larger;
+    font-size: medium;
 }
