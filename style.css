@@ -9,11 +9,12 @@ nav {
     height: 20vh;
 }
 
-span {
+span > ion-icon  {
     display: inline;
     padding: 10%;
+    font-size: 2rem;
     color: rgb(72, 72, 72);
 }
-span > .pause {
+span > .pausebutton {
     padding: 20%;
 }
