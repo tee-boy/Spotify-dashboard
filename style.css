@@ -4,7 +4,7 @@ body {
 
 nav {
     position: fixed;
-    top: 100%;
+    top: 100vh;
     color: rgb(20, 20, 20);
     height: 20vh;
 }
