@@ -5,7 +5,7 @@ body {
 span > ion-icon  {
     display: inline;
     padding: 10%;
-    font-size: 2rem;
+    font-size: 0.5rem;
     color: rgb(72, 72, 72);
 }
 span > .pausebutton {
