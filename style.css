@@ -4,8 +4,9 @@ body {
 
 nav {
     position: fixed;
-    top: 0;
+    top: 100%;
     color: rgb(20, 20, 20);
+    height: 20vh;
 }
 
 span {
