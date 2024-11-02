@@ -5,14 +5,8 @@
     text-decoration: none;
     list-style: none;
 }
-.fixed-bottom {
-    padding: 3% 10%;
-}
-.dir-div {
-    width: 20px;
-}
-.container-fluid > span{
-    display: inline;
+body {
+    padding: 1%;
 }
 .direction-button {
     font-size: 5vh;
@@ -20,4 +14,13 @@
 }
 .pausebutton {
     font-size: 7vh;
+}
+.container-row > .container {
+padding: 1%;
+}
+#container {
+    margin: 1%;
+    border-radius: 10px;
+    border: grey 0.1px solid;
+    padding: 2%;
 }
