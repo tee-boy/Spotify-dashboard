@@ -15,7 +15,8 @@ padding: 1%;
 .container-row {
     gap: 5vh;
 }
-#container {
+.contwo,
+.contone {
     position: fixed;
     border-radius: 10px;
     border: grey 0.1px solid;
