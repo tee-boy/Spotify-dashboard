@@ -18,7 +18,7 @@ padding: 1%;
 .contwo,
 .contone {
     position: fixed;
-    border-radius: 10px;
+    border-radius: 30px;
     border: grey 0.1px solid;
     padding: 2%;
     height: 80vh;
