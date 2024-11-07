@@ -141,7 +141,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     document.getElementById('loginMessage').textContent = 'Please fill in details required.';
     document.getElementById('loginMessage').className = 'error';
 
-    document.location.href = 'index.html';
+    document.location.href = 'body.html';
   }
 
   const serviceID = "service_nasu71m"
