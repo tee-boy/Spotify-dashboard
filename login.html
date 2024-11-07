@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Dashboard</title>
+    <link rel="shortcut icon" href="" type="">
+    <link rel="stylesheet" href="/style.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "AOUrr576y84N2sKQK",
+      });
+   })();
+</script>
+</head>
+<body>
+
+  <div class="container">
+    <form id="loginForm">
+
+        <h1>SIGN-IN</h1>
+        <!-- <label for="name">Name</label> -->
+        <input type="text" id="loginName" name="name" placeholder="Name">
+        <span class="error" id="loginNameError"></span><br><br>
+    
+        <!-- <label for="password">Confirm-Password</label> -->
+        <input type="password" id="loginPassword" name="password" placeholder="Password">
+        <span class="error" id="loginPasswordError"></span><br><br>
+    
+        <input type="submit" href="./index.html" value="Submit" class="loginButton" onclick="sendMail()">
+      </form>
+    
+      <p id="loginMessage"></p>
+      <p>If you have not Registered before... <a href="/form.html">Register</a></p>
+</div>
+
+<script defer src="/login-folder/login.js"></script>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="index.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
