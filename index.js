@@ -144,6 +144,20 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     document.location.href = 'body.html';
   }
 
+  // button login
+  if (usernameInput === validUsername && passwordInput === validPassword) {
+    // Show the spinner
+    document.getElementById('spinner').style.display = 'block';
+
+    // Simulate a 3-second loading time
+    setTimeout(() => {
+        document.getElementById('spinner').style.display = 'none';
+        document.getElementById('message').textContent = 'Login Successful!';
+    }, 3000);
+} else {
+    document.getElementById('message').textContent = 'Invalid username or password.';
+}
+
   const serviceID = "service_nasu71m"
   const templateID = "template_9wuqu9m"
 
